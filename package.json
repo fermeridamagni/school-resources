@@ -20,9 +20,9 @@
   ],
   "license": "Apache-2.0",
   "scripts": {
-    "formater:check": "pnpm dlx ultracite check",
-    "formater:fix": "pnpm dlx ultracite fix",
-    "formater:doctor": "pnpm dlx ultracite doctor",
+    "format:check": "pnpm dlx ultracite check",
+    "format:fix": "pnpm dlx ultracite fix",
+    "format:doctor": "pnpm dlx ultracite doctor",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
