@@ -8,5 +8,8 @@
   "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc][css][graphql]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "[yml][yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "typescript.tsdk": "node_modules/typescript/lib"
 }
