@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "DavidAnson.vscode-markdownlint",
+    "usernamehw.errorlens",
+    "redhat.vscode-yaml",
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools"
+  ]
+}
