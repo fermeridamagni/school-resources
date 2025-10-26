@@ -1,4 +1,4 @@
-# dependencies
+# Dependencies
 node_modules/
 
 # Prerequisites
@@ -42,3 +42,9 @@ node_modules/
 
 # debug information files
 *.dwo
+
+# Build
+**/build/
+**/_build/
+**/output/
+**/out/

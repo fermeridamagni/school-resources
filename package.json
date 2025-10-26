@@ -1,14 +1,37 @@
 {
   "name": "school-resources",
-  "description": "",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "description": "A collection of educational materials and resources for various subjects and courses related to all my school work.",
+  "author": {
+    "name": "fermeridamagni",
+    "email": "hello@magni.dev",
+    "url": "https://magni.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fermeridamagni/school-resources"
+  },
+  "keywords": [
+    "education",
+    "school",
+    "resources",
+    "study",
+    "learning",
+    "materials"
+  ],
   "license": "Apache-2.0",
+  "scripts": {
+    "formater:check": "pnpm dlx ultracite check",
+    "formater:fix": "pnpm dlx ultracite fix",
+    "formater:doctor": "pnpm dlx ultracite doctor",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
   "devDependencies": {
     "@biomejs/biome": "2.3.0",
     "husky": "^9.1.7",
-    "ultracite": "6.0.3"
+    "ultracite": "6.0.3",
+    "vitepress": "2.0.0-alpha.12"
   },
   "packageManager": "pnpm@10.18.2"
 }
