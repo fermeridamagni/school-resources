@@ -88,7 +88,43 @@ export default defineConfig({
           {
             text: "Programmable Logic Devices",
             link: "/programmable-logic-devices",
-            items: [],
+            items: [
+              {
+                text: "Practices",
+                base: "/subjects/programmable-logic-devices/practices",
+                link: "/practices",
+                items: [
+                  {
+                    text: "Practice 1 - PIC16F887 Digital I/O",
+                    link: "/practice-1-pic16f887-digital-io",
+                  },
+                  {
+                    text: "Practice 2 - PIC16F887 Analog I/O",
+                    link: "/practice-2-pic16f887-analog-io",
+                  },
+                  {
+                    text: "Practice 3 - ESP32 House Alarm",
+                    link: "/practice-3-esp32-house-alarm",
+                  },
+                  {
+                    text: "Practice 4 - Arduino Buzzers",
+                    link: "/practice-4-arduino-and-buzzers",
+                  },
+                  {
+                    text: "Practice 5 - Arduino IR Sensor",
+                    link: "/practice-5-arduino-ir-sensor",
+                  },
+                  {
+                    text: "Practice 6 - Arduino Traffic Light",
+                    link: "/practice-6-arduino-traffic-light",
+                  },
+                  {
+                    text: "Practice 7 - Arduino Led Intermitence",
+                    link: "/practice-7-arduino-led-intermitence",
+                  },
+                ],
+              },
+            ],
             collapsed: true,
           },
         ],
