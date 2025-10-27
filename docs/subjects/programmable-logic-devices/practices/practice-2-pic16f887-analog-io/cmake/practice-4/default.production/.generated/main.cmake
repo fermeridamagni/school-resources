@@ -1,0 +1,44 @@
+# cmake files support debug production
+include("${CMAKE_CURRENT_LIST_DIR}/rule.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/file.cmake")
+
+set(practice_4_default_library_list )
+
+# Handle files with suffix (s|as|asm|AS|ASM|As|aS|Asm), for group default-XC8
+if(practice_4_default_default_XC8_FILE_TYPE_assemble)
+add_library(practice_4_default_default_XC8_assemble OBJECT ${practice_4_default_default_XC8_FILE_TYPE_assemble})
+    practice_4_default_default_XC8_assemble_rule(practice_4_default_default_XC8_assemble)
+    list(APPEND practice_4_default_library_list "$<TARGET_OBJECTS:practice_4_default_default_XC8_assemble>")
+endif()
+
+# Handle files with suffix S, for group default-XC8
+if(practice_4_default_default_XC8_FILE_TYPE_assemblePreprocess)
+add_library(practice_4_default_default_XC8_assemblePreprocess OBJECT ${practice_4_default_default_XC8_FILE_TYPE_assemblePreprocess})
+    practice_4_default_default_XC8_assemblePreprocess_rule(practice_4_default_default_XC8_assemblePreprocess)
+    list(APPEND practice_4_default_library_list "$<TARGET_OBJECTS:practice_4_default_default_XC8_assemblePreprocess>")
+endif()
+
+# Handle files with suffix [cC], for group default-XC8
+if(practice_4_default_default_XC8_FILE_TYPE_compile)
+add_library(practice_4_default_default_XC8_compile OBJECT ${practice_4_default_default_XC8_FILE_TYPE_compile})
+    practice_4_default_default_XC8_compile_rule(practice_4_default_default_XC8_compile)
+    list(APPEND practice_4_default_library_list "$<TARGET_OBJECTS:practice_4_default_default_XC8_compile>")
+endif()
+
+
+add_executable(practice_4_default_image_2lfJufmo ${practice_4_default_library_list})
+
+set_target_properties(practice_4_default_image_2lfJufmo PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${practice_4_default_output_dir})
+set_target_properties(practice_4_default_image_2lfJufmo PROPERTIES OUTPUT_NAME "default-production")
+set_target_properties(practice_4_default_image_2lfJufmo PROPERTIES SUFFIX ".elf")
+         
+
+target_link_libraries(practice_4_default_image_2lfJufmo PRIVATE ${practice_4_default_default_XC8_FILE_TYPE_link})
+
+
+# Add the link options from the rule file.
+practice_4_default_link_rule(practice_4_default_image_2lfJufmo)
+
+
+
+

@@ -1,0 +1,65 @@
+{
+    "version": "1.6",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "",
+            "device": "PIC16F887",
+            "imageType": "application",
+            "imagePath": "./out/practice-3/default.elf",
+            "toolProperties": "default-tool-base",
+            "tool": "Simulator",
+            "packs": [
+                {
+                    "name": "PIC16Fxxx_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.7.162"
+                }
+            ],
+            "fileSet": "default",
+            "toolchain": "default-XC8",
+            "preBuildSteps": [],
+            "postBuildSteps": []
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@3.10",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "default",
+            "files": [
+                {
+                    "include": "**/*",
+                    "exclude": "**/(_build|out|cmake|.vscode)/**/*"
+                },
+                "subjects/programmable-logic-devices/practices/practice-3/_build/practice-3/default.production/CMakeFiles/4.1.1/CompilerIdC/CMakeCCompilerId.c",
+                "subjects/programmable-logic-devices/practices/practice-3/_build/practice-3/default/CMakeFiles/4.1.1/CompilerIdC/CMakeCCompilerId.c",
+                "subjects/programmable-logic-devices/practices/practice-3/out/practice-3/default.elf",
+                "subjects/programmable-logic-devices/practices/practice-3/out/practice-3/default.hex",
+                "subjects/programmable-logic-devices/practices/practice-3/out/practice-3/production/default-production.elf",
+                "subjects/programmable-logic-devices/practices/practice-3/out/practice-3/production/default-production.hex"
+            ]
+        }
+    ]
+}

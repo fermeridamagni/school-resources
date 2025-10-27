@@ -1,0 +1,16 @@
+{
+  "mplab.clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}\\_build\\practice-3\\default"
+  ],
+  "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc8\\v3.10\\bin\\xc8-clangd.exe",
+  "cmake.sourceDirectory": "D:/temp/practice-3/cmake/practice-3/default",
+  "memory-inspector.debugTypes": [
+    "arm-debugger",
+    "embedded-debug",
+    "gdb",
+    "mplab-core-da"
+  ],
+  "files.associations": {
+    "bits.h": "c"
+  }
+}
