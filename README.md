@@ -1,1 +1,1 @@
-# school-resources
+# ✨ School Resources
