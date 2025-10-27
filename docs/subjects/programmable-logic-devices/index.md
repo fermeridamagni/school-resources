@@ -22,9 +22,13 @@ Each practice directory contains:
 
 ### Available Practices
 
-- **practice-1**: Introduction to PIC microcontrollers
-- **practice-3**: Intermediate PIC programming concepts
-- **practice-4**: Advanced PIC applications
+- Practice 1 — PIC16F887 Digital I/O: [/subjects/programmable-logic-devices/practices/practice-1-pic16f887-digital-io/](/subjects/programmable-logic-devices/practices/practice-1-pic16f887-digital-io/)
+- Practice 2 — PIC16F887 Analog I/O: [/subjects/programmable-logic-devices/practices/practice-2-pic16f887-analog-io/](/subjects/programmable-logic-devices/practices/practice-2-pic16f887-analog-io/)
+- Practice 3 — ESP32 House Alarm: [/subjects/programmable-logic-devices/practices/practice-3-esp32-house-alarm/](/subjects/programmable-logic-devices/practices/practice-3-esp32-house-alarm/)
+- Practice 4 — Arduino Buzzers: [/subjects/programmable-logic-devices/practices/practice-4-arduino-and-buzzers/](/subjects/programmable-logic-devices/practices/practice-4-arduino-and-buzzers/)
+- Practice 5 — Arduino IR Sensor: [/subjects/programmable-logic-devices/practices/practice-5-arduino-ir-sensor/](/subjects/programmable-logic-devices/practices/practice-5-arduino-ir-sensor/)
+- Practice 6 — Arduino Traffic Light: [/subjects/programmable-logic-devices/practices/practice-6-arduino-traffic-light/](/subjects/programmable-logic-devices/practices/practice-6-arduino-traffic-light/)
+- Practice 7 — Arduino LED Intermitence: [/subjects/programmable-logic-devices/practices/practice-7-arduino-led-intermitence/](/subjects/programmable-logic-devices/practices/practice-7-arduino-led-intermitence/)
 
 ## Development Environment
 

@@ -22,8 +22,8 @@ Each practice directory contains:
 
 ### Available Practices
 
-- **practice-1**: Object counter using ultrasonic sensor
-- **practice-1.1**: Water level monitoring system
+- Object Counter (Ultrasonic): [/subjects/electronic-sensors-and-actuators/practices/practice-1-object-counter/](/subjects/electronic-sensors-and-actuators/practices/practice-1-object-counter/)
+- Water Level Monitor: [/subjects/electronic-sensors-and-actuators/practices/practice-2-water-level-monitor/](/subjects/electronic-sensors-and-actuators/practices/practice-2-water-level-monitor/)
 
 ## Development Environment
 

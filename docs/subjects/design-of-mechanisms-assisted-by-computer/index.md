@@ -21,7 +21,12 @@ Each practice directory contains:
 
 ### Available Practices
 
-- **practice-6**: Mechanical mechanism design project
+- Practice 1 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-1-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-1-solid-edge/)
+- Practice 2 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-2-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-2-solid-edge/)
+- Practice 3 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-3-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-3-solid-edge/)
+- Practice 4 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-4-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-4-solid-edge/)
+- Practice 5 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-5-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-5-solid-edge/)
+- Practice 6 — Solid Edge: [/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-6-solid-edge/](/subjects/design-of-mechanisms-assisted-by-computer/cad-exercises/practice-6-solid-edge/)
 
 ## Development Environment
 

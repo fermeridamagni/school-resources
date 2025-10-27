@@ -6,12 +6,14 @@ export default defineConfig({
   description:
     "A collection of educational materials and resources for various subjects and courses related to all my school work.",
   base: "/school-resources/",
+  lastUpdated: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
       { text: "Subjects", link: "/subjects" },
+      { text: "Guide", link: "/guide/" },
     ],
 
     sidebar: [
@@ -133,15 +135,24 @@ export default defineConfig({
 
     footer: {
       message: "Released under the Apache-2.0 License.",
-      copyright: "Copyright © 2023 fermeridamagni",
+      copyright: "Copyright © 2025 fermeridamagni",
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "github",
+        link: "https://github.com/fermeridamagni/school-resources",
+      },
     ],
 
     search: {
       provider: "local",
+    },
+
+    editLink: {
+      pattern:
+        "https://github.com/fermeridamagni/school-resources/edit/main/docs/:path",
+      text: "Edit this page on GitHub",
     },
   },
 });
