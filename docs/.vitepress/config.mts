@@ -124,6 +124,14 @@ export default defineConfig({
                     text: "Practice 7 - Arduino Led Intermitence",
                     link: "/practice-7-arduino-led-intermitence",
                   },
+{
+                    text: "Practice 8 - Arduino R4 Bluetooth",
+                    link: "/practice-8-arduino-r4-bluetooth",
+                  },
+                  {
+                    text: "Practice 9 - Arduino Button and Engine",
+                    link: "/practice-9-arduino-button-and-engine",
+                  },
                 ],
               },
             ],
