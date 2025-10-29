@@ -84,7 +84,19 @@ export default defineConfig({
           {
             text: "Industrial Robotics",
             link: "/industrial-robotics",
-            items: [],
+            items: [
+              {
+                text: "Projects",
+                base: "/subjects/industrial-robotics/projects",
+                link: "/projects",
+                items: [
+                  {
+                    text: "Project - Robotic Arm",
+                    link: "/robotic-arm",
+                  },
+                ],
+              },
+            ],
             collapsed: true,
           },
           {
@@ -124,7 +136,7 @@ export default defineConfig({
                     text: "Practice 7 - Arduino Led Intermitence",
                     link: "/practice-7-arduino-led-intermitence",
                   },
-{
+                  {
                     text: "Practice 8 - Arduino R4 Bluetooth",
                     link: "/practice-8-arduino-r4-bluetooth",
                   },
